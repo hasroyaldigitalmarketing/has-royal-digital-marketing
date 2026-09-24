@@ -1998,3 +1998,62 @@ ul, ol { list-style: none; }
     height: 40px;
   }
 }
+/* Mobile Quick CTA Styles near Hamburger */
+.mobile-top-cta {
+  display: none;
+  align-items: center;
+  gap: 6px;
+  margin-left: auto;
+  margin-right: 10px;
+}
+.top-call-btn, .top-book-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 10px 4px 4px;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 20px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+}
+.top-call-btn {
+  background-color: #eff6ff;
+  color: #2563eb;
+  border: 1px solid #bfdbfe;
+}
+.support-agent-avatar {
+  position: relative;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  overflow: hidden;
+  border: 2px solid #2563eb;
+}
+.support-agent-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.agent-status-dot {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 7px;
+  height: 7px;
+  background-color: #10b981;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+}
+.top-book-btn {
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 6px 12px;
+  border-radius: 20px;
+}
+@media (max-width: 991px) {
+  .mobile-top-cta {
+    display: flex;
+  }
+}

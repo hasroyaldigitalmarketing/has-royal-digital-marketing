@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thank You - HAS Royal Digital Marketing</title>
+    <meta name="description" content="Thank you for contacting HAS Royal Digital Marketing. We have received your request and will get back to you shortly. Serving All Mumbai Services, Thane, and Navi Mumbai.">
+    <meta name="robots" content="noindex, follow">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/jpeg" href="assets/has-royal-digital-marketing-logo.jpg">
+    <link rel="stylesheet" href="css/styles.css">
     <style>
         :root {
             --primary: #2563eb;
@@ -17,16 +24,54 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-family: 'Plus Jakarta Sans', sans-serif;
         }
         body {
             background-color: var(--bg-light);
             color: var(--text-dark);
             display: flex;
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
             padding: 20px;
+        }
+        /* Top Brand Header Styling */
+        .page-brand-header {
+            margin-bottom: 25px;
+            text-align: center;
+        }
+        .brand-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            background: #ffffff;
+            padding: 10px 20px;
+            border-radius: 50px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+        .brand-link img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .brand-text-wrap {
+            text-align: left;
+        }
+        .brand-name {
+            font-size: 16px;
+            font-weight: 800;
+            color: var(--text-dark);
+            line-height: 1.2;
+        }
+        .brand-tag {
+            font-size: 11px;
+            font-weight: 600;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
         }
         .thank-you-card {
             background: #ffffff;
@@ -129,6 +174,17 @@
 </head>
 <body>
 
+    <!-- Top Business Header / Logo -->
+    <div class="page-brand-header">
+        <a href="index.html" class="brand-link">
+            <img src="assets/has-royal-digital-marketing-logo.jpg" alt="HAS Royal Digital Marketing Logo">
+            <div class="brand-text-wrap">
+                <div class="brand-name">HAS Royal</div>
+                <div class="brand-tag">Digital Marketing</div>
+            </div>
+        </a>
+    </div>
+
     <div class="thank-you-card">
         <!-- Professional Support / Customer Care Lady Icon -->
         <div class="support-avatar">
@@ -140,7 +196,7 @@
 
         <h1>Thank You! <span class="highlight-text">Aapka Form Mil Gaya Hai</span></h1>
         
-<p>Humein aapki request mil chuki hai. Hamari team aapki zaroorat ke mutabiq best solution ke sath aapse turant jud rahi hai.</p>
+        <p>Humein aapki request mil chuki hai. Hamari team aapki zaroorat ke mutabiq best solution ke sath aapse turant jud rahi hai.</p>
 
         <!-- 5 Minutes Callback Box -->
         <div class="callback-box">
